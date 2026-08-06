@@ -8,6 +8,7 @@ def request(flow: http.HTTPFlow) -> None:
         print("yesyesyesyses")
         flow.response = http.Response.make(
             200,  # (optional) status code
-            b'{"ok": true, "token": "123asd"}',  # (optional) content
+            b'{"ok": true, "token": "Av1efkOokC3qT2p1bIGcJzDIVUSPEFStycktm5JHgtM"}',  # (optional) content
+            # yo ban me jack
             {"Content-Type": "text/html"},  # (optional) headers
         )
